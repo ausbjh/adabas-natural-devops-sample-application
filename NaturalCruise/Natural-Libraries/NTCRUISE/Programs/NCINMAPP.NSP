@@ -12,7 +12,7 @@
 /** :author Training
 DEFINE DATA
 LOCAL
-/* 
+/*
 1 #INFO-MESSAGE (A80)
 1 #IN-ERRNR  (N7)
 1 #IN-ERRPRG (A8)

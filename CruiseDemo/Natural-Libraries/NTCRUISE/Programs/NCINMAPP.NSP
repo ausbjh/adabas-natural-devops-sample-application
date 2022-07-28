@@ -19,7 +19,7 @@ LOCAL
 1 #IN-ERRLINE (N4)
 1 #ERR-TXT (A50)
 /*
-/*
+/* Comment Comment Comment
 LOCAL                    /* variables for user exit USR0020N 
 01 PARM-AREA             /* Parameters for CALLNAT
 02 TYPE         (A01)   INIT <'N'> /* 'U' or 'N' 
@@ -54,7 +54,7 @@ IF *DATA > 0
   RELEASE STACK
 /*
 ELSE
-  MOVE 'Please enter Cruise Id for required cruise' TO #INFO-MESSAGE
+  MOVE 'Please enter a Cruise Id to proceed' TO #INFO-MESSAGE
 END-IF
 /*
 ON ERROR

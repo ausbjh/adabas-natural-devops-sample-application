@@ -19,7 +19,7 @@ LOCAL
 1 #IN-ERRLINE (N4)
 1 #ERR-TXT (A50)
 /*
-/* Comment Comment Comment
+/* Comment Development_1
 LOCAL                    /* variables for user exit USR0020N 
 01 PARM-AREA             /* Parameters for CALLNAT
 02 TYPE         (A01)   INIT <'N'> /* 'U' or 'N' 

@@ -79,7 +79,7 @@ DECIDE ON FIRST VALUE OF *PF-KEY
   VALUE 'PF2','ENTR' 
     CALLNAT 'NCFINDCR' NC-PARMS
     IF #CR-ID-FIND = 0
-      REINPUT FULL 'Sorry - No Cruise found for Id' MARK *#CR-ID-FIND
+      REINPUT FULL 'Sorry - No Cruise found for supplied Id' MARK *#CR-ID-FIND
     END-IF
     REINPUT FULL 'OK - Cruise shown for Id' MARK *#CR-ID-FIND
   VALUE 'PF3' STOP

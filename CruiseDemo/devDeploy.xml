@@ -87,7 +87,7 @@
     <property name="natural.ant.deploy.catalog" value="NO" />
     <property name="natural.ant.deploy.create.sysobjh" value="NO" />
     <property name="natural.ant.deploy.history.log.level" value="0" />
-    <property name="natural.ant.repository.url" value="C:/Users/Administrator/git/adabas-natural-devops-sample-application/.git" />
+    <property name="natural.ant.repository.url" value="https://github.com/ausbjh/adabas-natural-devops-sample-application.git" />
     <property name="natural.ant.server.usessl" value="NO" />
     <property name="natural.ant.deploy.retain.unchanged.sources" value="NO" />
     <property name="natural.ant.repository.module" value="CruiseDemo" />

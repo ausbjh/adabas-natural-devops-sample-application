@@ -2,7 +2,7 @@
 * :Mode S
 * :CP
 * <Natural Source Header
-* MAP2: PROTOTYPE VERSION 820 --- CREATED BY ONE 8.3.8 ---
+* MAP2: PROTOTYPE VERSION 820 --- CREATED BY ONE 9.1.4 ---
 * INPUT USING MAP 'XXXXXXXX'
 *     #CR-ED #CR-ET #CR-FROMH #CR-ID #CR-ID-CONTROL #CR-ID-FIND #CR-P1W #CR-P2W
 *     #CR-P3W #CR-SD #CR-ST #CR-STATUS #CR-TOH #CR-YACHT-NAME
@@ -39,57 +39,57 @@ INPUT          (     IP=OFF                                           /*
  001T '_' (079)
 /
 /
- 018T #CR-ID /*.99U008 N08.0.
-      (AD=MIZ CV=#CR-ID-CONTROL HE='NCDEMAPH' )
- 040T #CR-YACHT-NAME /*.99U020 A020 .
-      (AD=MIZ HE='NCDEMAPH' )
-/
- 018T 'Cruise-id'(C)
- 040T 'Yacht-Name'(C)
-/
- 018T #CR-FROMH /*.99U020 A020 .
-      (AD=MIZ HE='NCDEMAPH' )
- 040T #CR-TOH /*.99U020 A020 .
-      (AD=MIZ HE='NCDEMAPH' )
-/
- 018T 'from Harbor'(C)
- 040T 'to Harbor'(C)
-/
- 018T #CR-SD /*.99U013 A013 .
-      (AD=MIZ HE='NCDEMAPH' )
- 031T #CR-ST /*.99U007 A007 .
-      (AD=MIZ HE='NCDEMAPH' )
- 040T #CR-ED /*.99U013 A013 .
-      (AD=MIZ HE='NCDEMAPH' )
- 053T #CR-ET /*.99U007 A007 .
-      (AD=MIZ HE='NCDEMAPH' )
-/
- 018T 'starting'(C)
- 040T 'ending'(C)
-/
-/
- 018T #CR-STATUS /*.99U020 A020 .
-      (AD=MIZ HE='NCDEMAPH' )
- 040T #CR-P1W /*.99U020 A020 .
-      (AD=MIZ HE='NCDEMAPH' )
-/
- 018T 'Status'(C)
- 040T 'price one week'(C)
-/
- 040T #CR-P2W /*.99U020 A020 .
-      (AD=MIZ HE='NCDEMAPH' )
-/
- 040T 'price two weeks'(C)
-/
- 040T #CR-P3W /*.99U020 A020 .
-      (AD=MIZ HE='NCDEMAPH' )
-/
- 040T 'price three weeks'(C)
-/
-/
- 018T 'Select Cruise by Id:'
- 040T #CR-ID-FIND /*.99U008 N08.0.
+ 009T 'Select Cruise by Id:'
+ 031T #CR-ID-FIND /*.99U008 N08.0.
       (AD=MDLTE HE='NCDECIDH',#CR-ID-FIND )
+/
+/
+ 017T #CR-ID /*.99U008 N08.0.
+      (AD=MIZ CV=#CR-ID-CONTROL HE='NCDEMAPH' )
+ 039T #CR-YACHT-NAME /*.99U020 A020 .
+      (AD=MIZ HE='NCDEMAPH' )
+/
+ 017T 'Cruise-id'(C)
+ 039T 'Yacht-Name'(C)
+/
+ 017T #CR-FROMH /*.99U020 A020 .
+      (AD=MIZ HE='NCDEMAPH' )
+ 039T #CR-TOH /*.99U020 A020 .
+      (AD=MIZ HE='NCDEMAPH' )
+/
+ 017T 'from Harbor'(C)
+ 039T 'to Harbor'(C)
+/
+ 017T #CR-SD /*.99U013 A013 .
+      (AD=MIZ HE='NCDEMAPH' )
+ 030T #CR-ST /*.99U007 A007 .
+      (AD=MIZ HE='NCDEMAPH' )
+ 039T #CR-ED /*.99U013 A013 .
+      (AD=MIZ HE='NCDEMAPH' )
+ 052T #CR-ET /*.99U007 A007 .
+      (AD=MIZ HE='NCDEMAPH' )
+/
+ 017T 'starting'(C)
+ 039T 'ending'(C)
+/
+/
+ 017T #CR-STATUS /*.99U020 A020 .
+      (AD=MIZ HE='NCDEMAPH' )
+ 039T #CR-P1W /*.99U020 A020 .
+      (AD=MIZ HE='NCDEMAPH' )
+/
+ 017T 'Status'(C)
+ 039T 'price one week'(C)
+/
+ 039T #CR-P2W /*.99U020 A020 .
+      (AD=MIZ HE='NCDEMAPH' )
+/
+ 039T 'price two weeks'(C)
+/
+ 039T #CR-P3W /*.99U020 A020 .
+      (AD=MIZ HE='NCDEMAPH' )
+/
+ 039T 'price three weeks'(C)
 /
  001T '_' (079)
 /

@@ -39,9 +39,6 @@ INPUT          (     IP=OFF                                           /*
  001T '_' (079)
 /
 /
- 009T 'Select Cruise by Id:'
- 031T #CR-ID-FIND /*.99U008 N08.0.
-      (AD=MDLTE HE='NCDECIDH',#CR-ID-FIND )
 /
 /
  017T #CR-ID /*.99U008 N08.0.
@@ -91,10 +88,13 @@ INPUT          (     IP=OFF                                           /*
 /
  039T 'price three weeks'(C)
 /
+ 008T 'Select Cruise by Id:'
+ 030T #CR-ID-FIND /*.99U008 N08.0.
+      (AD=MDLTE HE='NCDECIDH',#CR-ID-FIND )
+/
  001T '_' (079)
 /
  002T 'F1-Help  F2-Show Cruise  F3-Stop Program'
-/
 /
 /
 * MAP2: VALIDATION *****************************************************

@@ -40,7 +40,6 @@ INPUT          (     IP=OFF                                           /*
 /
 /
 /
-/
  017T #CR-ID /*.99U008 N08.0.
       (AD=MIZ CV=#CR-ID-CONTROL HE='NCDEMAPH' )
  039T #CR-YACHT-NAME /*.99U020 A020 .
@@ -86,10 +85,11 @@ INPUT          (     IP=OFF                                           /*
  039T #CR-P3W /*.99U020 A020 .
       (AD=MIZ HE='NCDEMAPH' )
 /
+ 039T 'price three weeks'(C)
+/
  004T 'Select Cruise by Id:'
  025T #CR-ID-FIND /*.99U008 N08.0.
       (AD=MDLTE HE='NCDECIDH',#CR-ID-FIND )
- 039T 'price three weeks'(C)
 /
 /
  001T '_' (079)

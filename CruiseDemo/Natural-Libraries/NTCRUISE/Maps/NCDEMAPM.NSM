@@ -87,10 +87,10 @@ INPUT          (     IP=OFF                                           /*
 /
  039T 'price three weeks'(C)
 /
- 004T 'Select Cruise by Id:'
- 025T #CR-ID-FIND /*.99U008 N08.0.
-      (AD=MDLTE HE='NCDECIDH',#CR-ID-FIND )
 /
+ 018T 'Select Cruise by Id:'
+ 039T #CR-ID-FIND /*.99U008 N08.0.
+      (AD=MDLTE HE='NCDECIDH',#CR-ID-FIND )
 /
  001T '_' (079)
 /

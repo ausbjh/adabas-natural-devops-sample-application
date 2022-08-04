@@ -68,7 +68,7 @@
     <property name="natural.ant.script.one.version" value="9.1.4.7" />
     <property name="natural.ant.project.deploy.file.name" value="devDeploy.xml" />
     <property name="natural.ant.repository.version" value="HEAD" />
-    <property name="natural.ant.deploy.stow" value="YES" />
+    <property name="natural.ant.deploy.stow" value="NO" />
     <property name="natural.ant.deploy.full" value="NO" />
     <property name="natural.ant.server.secured.environment" value="YES" />
     <property name="natural.ant.library.steplib.nsv" value="NTCRUISE;SYSTEM!;!" />
@@ -84,7 +84,7 @@
     <property name="natural.ant.deploy.timestamp.check" value="NO" />
     <property name="natural.ant.repository.password" value="" />
     <property name="natural.ant.repository.access.method" value=":pserver:" />
-    <property name="natural.ant.deploy.catalog" value="NO" />
+    <property name="natural.ant.deploy.catalog" value="YES" />
     <property name="natural.ant.deploy.create.sysobjh" value="NO" />
     <property name="natural.ant.deploy.history.log.level" value="0" />
     <property name="natural.ant.repository.url" value="https://github.com/ausbjh/adabas-natural-devops-sample-application.git" />

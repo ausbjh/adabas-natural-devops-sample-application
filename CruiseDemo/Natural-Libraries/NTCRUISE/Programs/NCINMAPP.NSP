@@ -19,7 +19,7 @@ LOCAL
 1 #IN-ERRLINE (N4)
 1 #ERR-TXT (A50)
 /*
-/* Comment Development_1 extra comment
+/*
 LOCAL                    /* variables for user exit USR0020N 
 01 PARM-AREA             /* Parameters for CALLNAT
 02 TYPE         (A01)   INIT <'N'> /* 'U' or 'N' 
@@ -79,9 +79,9 @@ DECIDE ON FIRST VALUE OF *PF-KEY
   VALUE 'PF2','ENTR' 
     CALLNAT 'NCFINDCR' NC-PARMS
     IF #CR-ID-FIND = 0
-      REINPUT FULL 'Sorry - No Cruise found for supplied Id' MARK *#CR-ID-FIND
+      REINPUT FULL 'Sorry - No Cruise found' MARK *#CR-ID-FIND
     END-IF
-    REINPUT FULL 'OK - Cruise shown for specified Id' MARK *#CR-ID-FIND
+    REINPUT FULL 'OK - Cruise shown for Id' MARK *#CR-ID-FIND
   VALUE 'PF3' STOP
   NONE  REINPUT 'Sorry - Function key not allocated'
 END-DECIDE

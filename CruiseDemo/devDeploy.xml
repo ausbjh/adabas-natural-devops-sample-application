@@ -79,7 +79,7 @@
     <property name="natural.ant.library.steplibs" value="NTCRUISE;1;SYSEXDDM;!;!" />
     <property name="natural.ant.server.parameters" value="" />
     <property name="natural.ant.mapping.enable" value="NO" />
-    <property name="natural.ant.project.rootdir" value="C:\Users\Administrator\workspace1015" />
+    <property name="natural.ant.project.rootdir" value="C:\Users\AUSBJH\workspace1015" />
     <property name="natural.ant.truststore.password" value="" />
     <property name="natural.ant.deploy.timestamp.check" value="NO" />
     <property name="natural.ant.repository.password" value="" />

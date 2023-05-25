@@ -6,7 +6,6 @@
 /**
 /** :author Administrator
 WRITE 'Hello universe' *PROGRAM
-FETCH 'ADHOC3'
 FETCH 'ADHOC4'
 FETCH 'ADHOC5'
 END

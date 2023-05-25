@@ -5,5 +5,5 @@
 /** New Program BHDEMO.
 /**
 /** :author Administrator
-WRITE 'Hello universe'
+WRITE 'Hello universe' *PROGRAM
 END
